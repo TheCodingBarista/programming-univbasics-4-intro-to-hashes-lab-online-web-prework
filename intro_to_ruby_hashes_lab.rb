@@ -34,6 +34,6 @@ end
 
 def update_counting_hash(hash, key)
   hashes_on_hashes = Hash.new(1)
-  return hashes_on_hashes[key]
+  hashes_on_hashes
 end
 
