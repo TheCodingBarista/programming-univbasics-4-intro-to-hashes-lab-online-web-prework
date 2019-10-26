@@ -45,4 +45,3 @@ def update_counting_hash(hash, key)
     puts hashes_on_hashes.default
   end
 end
-
