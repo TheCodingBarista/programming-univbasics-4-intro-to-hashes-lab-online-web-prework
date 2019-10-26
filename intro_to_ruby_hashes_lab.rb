@@ -40,7 +40,7 @@ def update_counting_hash(hash, key)
   
   
   if hashes_on_hashes[key]
-  hashes_on_hashes[key] += 1
+    hashes_on_hashes[key] += 1
   else
     puts hashes_on_hashes.default
   end
