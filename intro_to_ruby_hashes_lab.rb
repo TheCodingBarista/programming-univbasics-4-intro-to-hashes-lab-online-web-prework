@@ -33,8 +33,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash = Hash.new
-  hash.default = 1
+  # hash = Hash.new
+  # hash.default = 1
 
   if hash[key]
     puts hash[key] += 1
