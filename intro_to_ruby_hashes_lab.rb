@@ -39,5 +39,5 @@ def update_counting_hash(hash, key)
   integer_hash = {
     :lions => 1, :tigers => 2, :beara => 3
   }
-  integer_hash[]
+  hash[key]
 end
