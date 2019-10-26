@@ -29,9 +29,6 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  # hashes_on_hashes = {
-  #   please_work: "this works"
-  # }
   hash[key]
 end
 
