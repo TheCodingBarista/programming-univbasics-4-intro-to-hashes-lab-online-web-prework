@@ -33,6 +33,6 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash = Hash.new(1)
+  hashes_on_hashes = Hash.new(1)
   hash[key] 
 end
