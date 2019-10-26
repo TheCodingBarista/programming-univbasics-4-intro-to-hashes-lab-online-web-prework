@@ -29,11 +29,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hashes_on_hashes = {
+  hashes_on_hashes = {
      :key => 21
    }
-    puts [:key]
-  end
   read_from_hash(hashes_on_hashes)
 end
 
