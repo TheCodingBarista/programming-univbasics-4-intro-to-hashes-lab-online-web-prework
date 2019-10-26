@@ -32,7 +32,7 @@ def read_from_hash(hash, key)
   hashes_on_hashes = {
      :key => 21
    }
-  read_from_hash(hashes_on_hashes)
+  read_from_hash
 end
 
 # def update_counting_hash(hash, key)
