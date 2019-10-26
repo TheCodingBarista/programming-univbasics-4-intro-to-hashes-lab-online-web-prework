@@ -33,5 +33,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash[key] += 1
+  hashes_on_hashes = {
+    :flying_keys => 21
+  }
+  hash[:flying_keys] += 1
 end
