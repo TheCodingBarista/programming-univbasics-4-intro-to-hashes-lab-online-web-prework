@@ -34,8 +34,10 @@ end
 
 def update_counting_hash(hash, key)
   hashes_on_hashes = Hash.new(1)
-  hashes_on_hashes = {
-    :first_integer => 21, :second_integer => 2017
-  }
+  hashes_on_hashes[:first_integer] = 21
+  hashes_on_hashes[:second_integer] = 2017
   hash[key] 
 end
+
+grades = Hash.new
+grades["Dorothy Doe"] = 9
