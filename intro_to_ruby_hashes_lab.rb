@@ -33,15 +33,12 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  # hashes_on_hashes = {
-  #   :Tim_Duncan => 21
-  # }
+  hash = Hash.new
   hash.default = 1
-  
-  
-  # if hashes_on_hashes[key]
-  #   hashes_on_hashes[key] += 1
-  # else
-  #   puts hashes_on_hashes.default
-  # end
+
+  if hash[key]
+    puts hash[key] += 1
+  else
+    puts hash.default
+  end
 end
