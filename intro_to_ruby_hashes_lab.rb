@@ -34,6 +34,10 @@ end
 
 def update_counting_hash(hash, key)
   hashes_on_hashes = Hash.new(1)
-  if 
+  if if shipping_manifest["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  puts "Key not found!"
+end
   hashes_on_hashes
 end
