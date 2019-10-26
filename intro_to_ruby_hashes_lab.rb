@@ -39,6 +39,6 @@ def update_counting_hash(hash, key)
   if hash[key]
     puts hash[key] += 1
   else
-    puts hash.default
+    puts 1
   end
 end
