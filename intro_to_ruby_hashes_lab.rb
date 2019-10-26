@@ -39,5 +39,3 @@ def update_counting_hash(hash, key)
   hash[key] 
 end
 
-grades = Hash.new
-grades["Dorothy Doe"] = 9
