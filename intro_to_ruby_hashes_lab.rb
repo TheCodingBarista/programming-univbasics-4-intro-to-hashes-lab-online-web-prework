@@ -37,6 +37,7 @@ def update_counting_hash(hash, key)
   :first_integer => 21,
   :second_integer => 2017
   }
+  hashes_on_hashes.default = 1
   hash[key] 
 end
 
