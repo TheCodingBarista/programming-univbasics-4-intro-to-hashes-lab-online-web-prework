@@ -30,7 +30,7 @@ end
 
 def read_from_hash(hash, key)
   hashes_on_hashes = {
-     :key => 21
+     please_work: "this works"
    }
   hashes_on_hashes[:key]
 end
