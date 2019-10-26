@@ -34,6 +34,8 @@ end
 
 def update_counting_hash(hash, key)
   hashes_on_hashes = Hash.new(1)
+  hashes_on_hashes["Tim Duncan"] = 21
+  
   if hashes_on_hashes[key]
   hashes_on_hashes[key] += 1
   else
